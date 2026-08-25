@@ -89,8 +89,8 @@ http://<raspberry-pi-ip>:5000
 
 ## Authors
 
-**Camila Vargas Medorio** — Robotics & Telecommunications Engineering, UDLAP  
-[camilavargasmedorio@icloud.com](mailto:camilavargasmedorio@icloud.com)
-**José Rodrigo Apodaca Álvarez**  — Robotics & Telecommunications Engineering, UDLAP 
-**Melissa Salazar Cruz**  — Robotics & Telecommunications Engineering, UDLAP 
+- **Camila Vargas Medorio** — Robotics & Telecommunications Engineering, UDLAP   
+[camilavargasmedorio@icloud.com](mailto:camilavargasmedorio@icloud.com) 
+- **José Rodrigo Apodaca Álvarez**  — Robotics & Telecommunications Engineering, UDLAP 
+- **Melissa Salazar Cruz**  — Robotics & Telecommunications Engineering, UDLAP 
 
