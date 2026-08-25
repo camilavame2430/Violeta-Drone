@@ -1,12 +1,12 @@
-# 🟣 Proyecto Violeta — Autonomous Companion Drone for Women's Safety
+# Proyecto Violeta — Autonomous Companion Drone for Women's Safety
 
-An autonomous aerial companion drone designed to enhance personal safety in urban environments. Built on a **3DR Solo** platform with a **Raspberry Pi 4** as companion computer, running **ROS 2 Jazzy** and a real-time computer vision pipeline using **PyTorch** and **DroneKit**.
+An autonomous aerial companion drone designed to enhance personal safety in urban environments. Built on a 3DR Solo platform with a Raspberry Pi 4 as companion computer, running ROS 2 Jazzy and a real-time computer vision pipeline using PyTorch and DroneKit.
 
----
 
-## 🚀 Overview
 
-Proyecto Violeta is a robotics + AI system that enables a drone to autonomously detect and follow a person, providing aerial oversight in situations where personal safety may be at risk. The system includes a **web-based mission control interface** accessible from any device on the local network.
+## Overview
+
+Proyecto Violeta is a robotics + AI system that enables a drone to autonomously detect and follow a person, providing aerial oversight in situations where personal safety may be at risk. The system includes a web-based mission control interface accessible from any device on the local network.
 
 **Key capabilities:**
 - Real-time person detection and tracking via computer vision
@@ -15,9 +15,9 @@ Proyecto Violeta is a robotics + AI system that enables a drone to autonomously 
 - Web UI with Flask + Socket.IO — accessible from a phone or laptop
 - Edge inference on Raspberry Pi 4 (no cloud dependency)
 
----
 
-## 🛠️ Hardware Requirements
+
+## Hardware Requirements
 
 | Component | Description |
 |---|---|
@@ -27,20 +27,20 @@ Proyecto Violeta is a robotics + AI system that enables a drone to autonomously 
 | LiPo 4S battery | Fully charged before any operation |
 | Ethernet cable | For initial network setup |
 
----
 
-## 🧰 Tech Stack
 
-- **ROS 2 Jazzy** + **MAVROS** — drone communication layer
-- **DroneKit** — Python API for vehicle control via MAVLink
-- **PyTorch** — computer vision model for person detection
-- **Flask** + **Flask-SocketIO** — real-time web interface
-- **OpenCV** — image processing pipeline
-- **Python 3**
+## Tech Stack
 
----
+- ROS 2 Jazzy + MAVROS — drone communication layer
+- DroneKit — Python API for vehicle control via MAVLink
+- PyTorch — computer vision model for person detection
+- Flask** + Flask-SocketIO — real-time web interface
+- OpenCV — image processing pipeline
+- Python 3
 
-## 📁 Repository Structure
+
+
+## Repository Structure
 
 ```
 Violeta-Dron/
@@ -51,7 +51,7 @@ Violeta-Dron/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 See [`manual_violeta.md`](./manual_violeta.md) for the full step-by-step guide, which covers:
 
@@ -65,7 +65,7 @@ See [`manual_violeta.md`](./manual_violeta.md) for the full step-by-step guide, 
 
 ---
 
-## ▶️ Quick Start
+## Quick Start
 
 ```bash
 # On the Raspberry Pi, once all dependencies are installed:
@@ -77,23 +77,20 @@ Then open a browser on any device connected to the same network and navigate to:
 http://<raspberry-pi-ip>:5000
 ```
 
----
 
-## ⚠️ Safety Notes
 
-- Always ensure the LiPo battery is **fully charged** before flashing firmware — a power loss mid-flash can corrupt the SD card (see manual section 3 for recovery steps).
-- Test all autonomous flight logic in **simulation or a safe open area** before real deployment.
+## Safety Notes
+
+- Always ensure the LiPo battery is fully charged before flashing firmware — a power loss mid-flash can corrupt the SD card (see manual section 3 for recovery steps).
+- Test all autonomous flight logic in simulation or a safe open area before real deployment.
 - This project is a research and academic prototype. Always follow local drone regulations.
 
----
 
-## 👩‍💻 Authors
+
+## Authors
 
 **Camila Vargas Medorio** — Robotics & Telecommunications Engineering, UDLAP  
 [camilavargasmedorio@icloud.com](mailto:camilavargasmedorio@icloud.com)
+**José Rodrigo Apodaca Álvarez**  — Robotics & Telecommunications Engineering, UDLAP 
+**Melissa Salazar Cruz**  — Robotics & Telecommunications Engineering, UDLAP 
 
----
-
-## 📌 Status
-
-🔬 Active development — academic research project, UDLAP 2026
